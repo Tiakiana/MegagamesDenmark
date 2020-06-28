@@ -1,0 +1,62 @@
+﻿body {
+    background-color: white;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: normal;
+    font-style: normal;
+    color:black;
+}
+.H2Jak {
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: normal;
+    font-style: normal;
+    color: #ff8200;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+    img.center {
+        display: block;
+        margin: 0 auto;
+    }
+
+.specialDiv {
+    background-color: coral;
+}
+section{
+padding:2rem;
+}
+.bg-Primary{
+    background-color:coral;
+    
+}
+.H3Jak {
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: normal;
+    font-style: normal;
+    color: #4b88a2;
+}
+
+p {
+    color: black;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: normal;
+    font-style: normal;
+}
+    p.center {
+        margin: auto;
+    }
+
+#hubert {
+    font-size: 25px;
+    color:#C1292E;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
