@@ -20,22 +20,23 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="AegonsConquest" asp-action="Index">Home</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="AegonsConquest" asp-action="Index">Hovedside</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="AegonsConquest" asp-action="Lord">Lord</a>
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Roller
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="nav-link text-dark dropdown-item" asp-area="" asp-controller="AegonsConquest" asp-action="Lord">Lord</a>
+                                    <a class="nav-link text-dark dropdown-item" asp-area="" asp-controller="AegonsConquest" asp-action="Knight">Knight</a>
+                                    <a class="nav-link text-dark dropdown-item" asp-area="" asp-controller="AegonsConquest" asp-action="Maester">Maester</a>
+                                    <a class="nav-link text-dark dropdown-item" asp-area="" asp-controller="AegonsConquest" asp-action="Heir">Heir</a>
+                                </div>
+                            </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="AegonsConquest" asp-action="Knight">Knight</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="AegonsConquest" asp-action="Maester">Maester</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="AegonsConquest" asp-action="Heir">Heir</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">Datasikkerhed</a>
                         </li>
                     </ul>
                 </div>
