@@ -20,7 +20,7 @@ namespace MegagamesDenmark.Controllers
 
         public IActionResult Index()
         {
-            return View("Views\\AegonsConquest\\index.cshtml");
+            return View("Views\\AegonsConquest\\lord.cshtml");
         }
 
         public IActionResult Privacy()

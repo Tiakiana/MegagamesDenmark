@@ -18,8 +18,9 @@ h1 {
     color: #ff8200;
 }
 img {
-    width: 80%;
+    width: 90%;
     height: auto;
+    max-height: 300px;
     border-radius: 5px;
 }
 
