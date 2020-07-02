@@ -15,7 +15,7 @@
 
     <div class="container">
         <div class="row" style="margin:10px;">
-            <div class="col-6">
+            <div class="col-md-6 col-sm-12">
                 <p class="center">The Studious Maester</p>
                 <p class="center" style="font-family:'Segoe UI Historic';">
                     Play this role if you want to quietly
@@ -30,7 +30,7 @@
                     optimizing choices.
                 </p>
             </div>
-            <div class="col-6">
+            <div class="col-md-6 col-sm-12">
                 <img class="center" src="~/img/Luwin2.png" />
             </div>
         </div>
@@ -38,10 +38,12 @@
 
     <div class="row" style="margin:10px;">
 
-        <div class="col-6">
+        <div class="col-md-6 col-sm-12">
+
             <img class="center" src="~/img/Pycelle2.png" />
         </div>
-        <div class="col-6">
+        <div class="col-md-6 col-sm-12">
+
             <p class="center">Playstyle</p>
             <p class="center" style="font-family:'Segoe UI Historic';">
                 The Maester is an easy role to play, but a
@@ -64,20 +66,19 @@
         margin-left: -36%
     " class="container-fluid">
         <div class="row" style="height:350px;">
-            <div class="col-1"></div>
-
-            <div class="col-5 ">
+            <div class="col-md-1"></div>
+            <div class="col-md-5 d-none d-md-block">
                 <img style="margin-top:25px; float:right; margin-right: 15%; height:300px; width:auto; border-radius:10%" src="~/img/HandoftheKingTyrionLannister2.png" />
             </div>
-            <div class="col-5 " style="margin-top:20px; margin-left:8%">
-                <p style="color:white; font-size:24px">Play a Maester if you</p>
-                <p style="color:white; font-family:'Segoe UI Historic'; font-size:16px">✓   Love bringing new toys and tech for other players to play with</p>
-                <p style="color:white; font-family:'Segoe UI Historic'; font-size:16px; margin-top:-15px">✓   Want a more relaxed role in your house</p>
-                <p style="color:white; font-family:'Segoe UI Historic'; font-size:16px; margin-top:-15px">✓   Like to play a matchmaker, choosing which Heir should marry whom</p>
-                <div class="col-1" style="margin-top:10px;">
-                     <a asp-area="" asp-controller="AegonsConquest" asp-action="SignUp" class="btn btn-info center" style="
+            <div class="col-md-5 col-sm-12 " style="margin-top:20px; margin-left:8%">
+                <p class="text-center text-md-left" style="color:white; font-size:24px">Play a Maester if you</p>
+                <p class="text-center text-md-left" style="color:white; font-family:'Segoe UI Historic'; font-size:16px">✓   Love bringing toys and tech for other players to play with</p>
+                <p class="text-center text-md-left" style="color:white; font-family:'Segoe UI Historic'; font-size:16px; margin-top:-15px">✓   Want a more relaxed role in your house</p>
+                <p class="text-center text-md-left" style="color:white; font-family:'Segoe UI Historic'; font-size:16px; margin-top:-15px">✓   Like to play a matchmaker, pairing Heirs as you please</p>
+                <div class="col-md-1 col-12 text-center text-md-left" style="margin-top:10px;">
+                    <a asp-area="" asp-controller="AegonsConquest" asp-action="SignUp" class="btn btn-info" style="
                             border:hidden;
-                            margin-left: -15px;
+                            /*margin-left: -15px;*/
                             width: 300px;
                             background-color: white;
                             color: #38040E;
@@ -85,6 +86,7 @@
                             font-weight: bold" role="button">Sign Up here</a>
                 </div>
             </div>
+
             <div class="col-1"></div>
         </div>
     </div>

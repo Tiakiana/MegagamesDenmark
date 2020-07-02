@@ -1,0 +1,6 @@
+﻿body {
+}
+
+.GradientRed {
+    background-image: linear-gradient(to bottom right, #38040E, #640D14);
+}
