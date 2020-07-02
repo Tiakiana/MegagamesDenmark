@@ -38,6 +38,22 @@ namespace MegagamesDenmark.Controllers
             return View();
 
         }
+        public ActionResult SignUp()
+        {
+            return View();
+        }
+        public ActionResult Thanks()
+        {
+            return View();
+        }
+        public ActionResult NobleHouses()
+        {
+            return View();
+        }
+        public ActionResult Rules()
+        {
+            return View();
+        }
 
 
         public ActionResult Details(int id)

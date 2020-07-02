@@ -11,6 +11,9 @@ a.navbar-brand {
 a {
   color: #0366d6;
 }
+#nav {
+    z-index: 9999;
+}
 
 .btn-primary {
   color: #fff;

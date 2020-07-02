@@ -60,4 +60,7 @@ p {
     color:#C1292E;
     font-family: 'Cinzel Decorative', cursive;
 }
+.GradientRed {
+    background-image: linear-gradient(to bottom right, #38040E, #640D14);
+}
 

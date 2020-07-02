@@ -3,26 +3,27 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - MegagamesDenmark</title>
+    <title>@ViewData["Title"] - MegagamesDK</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="icon" type="image/x-icon" href="~/favicon.ico">
 </head>
 <body >
     <header style="background-image: linear-gradient(to bottom right, #38040E, #640D14)">
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" >
-            <div class="container" style="height:35px;" >
+        <nav id="nav" class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" >
+            <div class="container" style="height:35px;">
                 
                 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                    <img src="~/img/RollespilsForeningenFønix.png" />
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
+                    <ul class="navbar-nav flex-grow-1 GradientRed">
+
                         <li>
-                            <a class="navbar-brand text-light" href="https://www.foeniks.org" style="margin-left:-35%;margin-right:65%">
-                                <img class="navbar-brand text-light" src="~/img/RollespilsForeningenFønix.png" style="height:60px;width:60px;" />
+                            <a class="navbar-brand text-light " href="https://www.foeniks.org" style="margin-left:0%;margin-right:0%; background-color:">
+                                <img class="navbar-brand text-light d-sm-block d-sm-none" src="~/img/RollespilsForeningenFønix2.png" style="height:35px;width:auto;" />
                             </a>
                         </li>
                         <li class="nav-item">
@@ -33,16 +34,28 @@
                                 <button class="btn btn-secondary dropdown-toggle" style="background-color:transparent; border: hidden" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Roller
                                 </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <a class="nav-link text-dark dropdown-item" asp-area="" asp-controller="AegonsConquest" asp-action="Lord">Lord</a>
-                                    <a class="nav-link text-dark dropdown-item" asp-area="" asp-controller="AegonsConquest" asp-action="Knight">Knight</a>
-                                    <a class="nav-link text-dark dropdown-item" asp-area="" asp-controller="AegonsConquest" asp-action="Maester">Maester</a>
-                                    <a class="nav-link text-dark dropdown-item" asp-area="" asp-controller="AegonsConquest" asp-action="Heir">Heir</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background-color:darkred">
+                                    <a class="nav-link text-light dropdown-item" asp-area="" asp-controller="AegonsConquest" asp-action="Lord" style="background-color:darkred;">Lord</a>
+                                    <a class="nav-link text-light dropdown-item" asp-area="" asp-controller="AegonsConquest" asp-action="Knight" style="background-color:darkred;">Knight</a>
+                                    <a class="nav-link text-light dropdown-item" asp-area="" asp-controller="AegonsConquest" asp-action="Maester" style="background-color:darkred;">Maester</a>
+                                    <a class="nav-link text-light dropdown-item" asp-area="" asp-controller="AegonsConquest" asp-action="Heir" style="background-color:darkred;">Heir</a>
                                 </div>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">Datasikkerhed</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="AegonsConquest" asp-action="NobleHouses">Adelshuse</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="AegonsConquest" asp-action="Rules">Regler</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="AegonsConquest" asp-action="Thanks">Tak</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy" style=" z-index:9999;">Datasikkerhed</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light font-weight-bold" asp-area="" asp-controller="AegonsConquest" asp-action="SignUp">Tilmelding</a>
                         </li>
                     </ul>
                 </div>
